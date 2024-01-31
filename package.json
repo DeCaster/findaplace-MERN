@@ -1,0 +1,11 @@
+{
+  "name": "mekanbul_mern",
+  "version": "2.0",
+  "private": true,
+  "dependencies": {
+    "concurrently": "latest"
+  },
+  "scripts": {
+    "start": "npm install && concurrently \"cd ./backend && npm install && npm start\" \"cd ./frontend && npm install && npm run dev\""
+  }
+}
